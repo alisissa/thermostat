@@ -23,10 +23,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### Libraries Used
+### Technology Stack
 - Redux
 - React Redux
 - Axios
 - Redux Thunk
 - Material UI
+
+### Improvements
+These are some of the improvements that can be introduced, shall we decide to send it to production
+  
+- The UI can always be enhanced for a better overall experience
+- Implement proper error handling
+- Implement Testing
+
+P.S. for an app that is considered small, redux wasn't necessary but I decided to implement it to showcase hoq I usually design an app.   
 
