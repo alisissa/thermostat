@@ -1,0 +1,32 @@
+{
+  "name": "frontend-case",
+  "version": "1.0.0",
+  "description": "Starter pack for the Quby Frontend interview case",
+  "author": "Steven Straatemans <steven@straatemans.nl>",
+  "main": "build/index.js",
+  "scripts": {
+    "startclient": "cd client && npm install && npm start",
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "dev": "set debug=* && ts-node-dev --respawn --transpileOnly ./server/index.ts --r dotenv/config",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.5.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  }
+}
