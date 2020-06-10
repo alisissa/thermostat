@@ -1,8 +1,8 @@
-#Thermostat Dashboard
+##Thermostat Dashboard
 
 The purpose of this react app is to showcase a thermostat dashboard which is integrated with a lightweight web server to fetch and update data. 
 
-## Running the App
+### Running the App
 
 In the client directory, you can run:
 
