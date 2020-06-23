@@ -39,3 +39,4 @@ These are some of the improvements that can be introduced, shall we decide to se
 
 P.S. for an app that is considered small, redux wasn't necessary but I decided to implement it to showcase hoq I usually design an app.   
 
+ 
